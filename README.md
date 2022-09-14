@@ -1,1 +1,1 @@
-# curso-dio-orientacao-a-objetos da Dio, usando a linguagem Ruby
+# curso-dio-orientacao-a-objetos da Dio, usando a linguagem Rubyy
