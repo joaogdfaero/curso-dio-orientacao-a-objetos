@@ -28,5 +28,3 @@ p Pessoa.numero_de_pessoas
 
 
 
-########### PRÁTICA
-
