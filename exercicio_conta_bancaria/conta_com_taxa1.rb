@@ -1,5 +1,6 @@
 class ContaComTaxa < ContaBancaria
     def debitar(valor)
-        @valor -= valor*1.01 # TAXANDO 1%
+        taxa_de_debito=1.01
+        @valor -= valor*taxa_de_debito # TAXANDO 1%
     end
 end
