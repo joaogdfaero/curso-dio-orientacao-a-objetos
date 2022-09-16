@@ -18,11 +18,13 @@ class Time
      end
 
      def vitoria(pontuação)
-        @pontuação=pontuação+3
+        @pontuação+=pontuação
      end
 
      def derrota(pontuação,posição)
-        # @pontuação=pontuação-3
+        @pontuação-=pontuação
         # @posição-=
      end
+        
+     
 end

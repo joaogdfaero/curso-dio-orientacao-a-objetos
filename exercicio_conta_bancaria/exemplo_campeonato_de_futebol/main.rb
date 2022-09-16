@@ -15,7 +15,7 @@ Inter.qual_pontuação
 Grêmio.qual_pontuação
 
 # JOGO ENTRE OS TIMES
-Inter.jogo_com_vitoria(56,2,Grêmio)
+Inter.jogo_com_vitoria(3,2,Grêmio) # partida vale 3 pontos
 
 # POSIÇÃO ATUAL
 p "a posição atual dos times é"
