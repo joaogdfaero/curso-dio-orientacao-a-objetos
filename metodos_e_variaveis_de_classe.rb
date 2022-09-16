@@ -24,3 +24,9 @@ p Pessoa.numero_de_pessoas
 # Criar o objeto e chamar o método nele da erro
 # pessoa1 = Pessoa.new
 # p pessoa1.gerar
+
+
+
+
+########### PRÁTICA
+
