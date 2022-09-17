@@ -12,16 +12,16 @@ class Time
         p @pontuação
     end
 
-     def jogo_com_vitoria(pontuação,posição,outro_time) #pontuação do time vencedor, perdedor e posição do time perdedor
-        vitoria(pontuação)
-        outro_time.derrota(pontuação,posição)
+     def jogo_com_vitoria(pontos,posição,outro_time) #pontuação do time vencedor, perdedor e posição do time perdedor
+        vitoria(pontos)
+        outro_time.derrota(pontos,posição)
      end
 
-     def vitoria(pontuação)
-        @pontuação+=pontuação
+     def vitoria(pontos)
+        @pontuação+=pontos
      end
 
-     def derrota(pontuação,posição)
-        @pontuação-=pontuação
+     def derrota(pontos,posição)
+        @pontuação-=pontos
      end
 end
