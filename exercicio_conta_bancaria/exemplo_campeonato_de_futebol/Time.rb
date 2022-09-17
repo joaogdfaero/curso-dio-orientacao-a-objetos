@@ -23,8 +23,5 @@ class Time
 
      def derrota(pontuação,posição)
         @pontuação-=pontuação
-        # @posição-=
      end
-        
-     
 end
