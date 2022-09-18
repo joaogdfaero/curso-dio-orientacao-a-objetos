@@ -9,7 +9,7 @@ class Time
     end
 
     def qual_posição
-        p @posição
+        puts @posição
     end
 
     def qual_pontuação
