@@ -1,3 +1,7 @@
+# TODO
+# Fazer um campeonato, com vários times e classificação que se atualiza (com pontuação e posição de cada um)
+
+
 class Time
     def initialize(posição_inicial,pontuação_inicial)
         @posição = posição_inicial
