@@ -1,6 +1,6 @@
 # TODO
 # Fazer um campeonato, com vários times e classificação que se atualiza (com pontuação e posição de cada um)
-
+# Criar os times (que inicialmente não tem pontuação), e simular partidas entre eles
 
 class Time
     def initialize(posição_inicial,pontuação_inicial)
