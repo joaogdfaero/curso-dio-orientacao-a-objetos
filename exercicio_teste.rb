@@ -5,3 +5,6 @@ class Pessoa
       @nome = nome
     end
   end
+
+pessoa = Pessoa.new("foo")
+pessoa.nome
