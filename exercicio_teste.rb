@@ -1,10 +1,14 @@
-class Pessoa
-    attr_reader :nome
-
-    def initialize(nome)
-      @nome = nome
+class A
+    def falar(mensagem)
+      puts mensagem
     end
   end
 
-pessoa = Pessoa.new("foo")
-pessoa.nome
+  class B < A
+    def falar(mensagem)
+      puts "classe B!!"
+      super
+    end
+  end
+
+  B.new.falar("minha mensagem")
